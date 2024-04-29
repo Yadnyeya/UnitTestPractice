@@ -32,7 +32,7 @@ bool Password::has_mixed_case(string word) {
   for (char ch : word) {
     if (std::isupper(ch)) has_upper = true;
     if (std::islower(ch)) has_lower = true;
-    if (has_upper && has_lower) return true; // Early return if both cases are found
+    if (has_upper && has_lower) return true; // Return if both cases are found
   }
 
   return false; // Return false if not both cases are found

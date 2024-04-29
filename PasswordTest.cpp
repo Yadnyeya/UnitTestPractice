@@ -80,5 +80,3 @@ TEST(PasswordTest, empty_string_for_mixed_case) {
   bool actual = my_password.has_mixed_case("");
   ASSERT_FALSE(actual);
 }
-
-// Add more test cases as needed
